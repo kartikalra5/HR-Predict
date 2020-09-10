@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Logic</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+	<div class="banner">
+
+    
+</div>
+<div class="container tb-space" > 
+	<div class="row" style="display: flex;">
+		<div class="col-lg-4 col-md-4 col-sm-4">
+			<a href="#">Back</a>
+		</div>
+				<div class="col-lg-2 col-md-3  col-sm-4">
+
+	</div>
+		<div class="col-lg-6 col-md-4 col-sm-4"><h1>Attrition Predict</h1>
+		</div>
+				<div class="col-lg-6 col-md-4  col-sm-4">
+</div>
+		
+		
+	</div>
+<table class="table table-bordered table-hover">
+  <thead class="thead-dark">
+    
+      
+      <th scope="col">Employee code</th>
+      <th scope="col">name</th>
+      <th scope="col">department</th>
+      <th scope="col">account</th>
+      <th scope="col">current project manager</th>
+            <th scope="col">attribute possibility</th>
+
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>mahesh bhatt@</td>
+      <td>mahesh bhat</td>
+      <td>@engineering</td>
+      <td>logic</td>
+            <td>vivek</td>
+            <td><button type="button" class="btn btn-danger">90%</button>
+</td>
+      
+
+
+    </tr>
+
+  </tbody>
+</table>
+
+    {{resp}}
+
+</div>
+
+</body>
+
+<script>
+
+    var data = JSON.stringify('{{resp}}')
+
+    console.log(data)
+
+</script>
+
+</html>
